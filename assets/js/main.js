@@ -12,7 +12,7 @@ document.getElementById('form')
         btn.innerHTML = `<i class="fa-solid fa-paper-plane"></i>&nbsp;&nbsp; Cotizando ...`;
 
         const serviceID = 'default_service';
-        const templateID = 'template_tb5qpw7';
+        const templateID = 'template_74dzgtv';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
